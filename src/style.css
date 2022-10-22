@@ -1,0 +1,29 @@
+/* Google Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* variables */
+:root {
+    --color-purple: #a394c3;
+    --color-pink: #d283b1;
+    --color-gray: #9CA3AF;
+    --color-black: #1F2937;
+    --card-size: 23rem;
+    }
+
+/* Carousel */
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-image: linear-gradient(45deg, var(--color-purple), var(--color-pink));
+  font-family: 'Montserrat', sans-serif;
+
+  /* Centers everything in vertical alignment too */
+  /* align-items: center; */
+}
+
+* {
+  box-sizing: border-box;
+}
